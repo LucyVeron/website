@@ -1,4 +1,6 @@
 # website
 Website for local music group
 
-Main page: static background with scrollable foreground
+TO-DO
+Make main page static background with scrollable foreground
+Switch server to new domain name (or a redirect?)
