@@ -3,7 +3,6 @@ Website for local music group
 
 # to do
 
-*image gallery
-*functionality to adjust background
- image sizes to fit browser window
-*choose font stack
+- [] Image gallery
+- [] Functionality to adjust background image sizes to fit browser window
+- [] Choose font stack
