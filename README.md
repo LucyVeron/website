@@ -1,8 +1,11 @@
 # website
 Website for local music group
 
-TO-DO
+*********TO DO********************
 
-Make main page static background with scrollable foreground
+-image gallery
+-functionality to adjust background
+ image sizes to fit browser window
+-choose font stack
 
-Switch server to new domain name (or a redirect?)
+**********************************
