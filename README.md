@@ -1,11 +1,9 @@
 # website
 Website for local music group
 
-*********TO DO********************
+# to do
 
--image gallery
--functionality to adjust background
+*image gallery
+*functionality to adjust background
  image sizes to fit browser window
--choose font stack
-
-**********************************
+*choose font stack
