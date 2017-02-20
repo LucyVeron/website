@@ -1,0 +1,43 @@
+ <html>
+<head>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+</style>
+</head>
+<body>
+
+<div class="img">
+  <a target="_blank" href="{{ url_for('static', filename='crowd.jpg') }}">
+    <img src="../static/images/crowd.jpg" alt="crowd" width="300" height="200">
+  </a>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../static/images/outdoors.JPG">
+    <img src="../static/images/outdoors.JPG" alt="crowd" width="300" height="200">
+  </a>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../static/images/onstage.JPG">
+    <img src="../static/images/onstage.JPG" alt="crowd" width="300" height="200">
+  </a>
+</div>
+
+</body>
+</html> 
