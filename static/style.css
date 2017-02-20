@@ -1,0 +1,158 @@
+html{
+   background-size: cover;
+}
+
+html.top{
+   background-attachment: fixed;
+   background-image: url(/static/images/yellowimg.png);   
+   background-pos: center;
+   background-repeat: no-repeat;
+}
+
+html.scrolled1{
+   background-attachment: fixed;
+   background-image: url(/static/images/mural.JPG);
+   background-pos: center 400px;
+   background-repeat: no-repeat;
+
+}
+
+html.scrolled2{
+   background-attachment: fixed;
+   background-image: url('/static/images/redimg.png');
+   background-pos: center 800px;
+   background-repeat: no-repeat;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+}
+
+body{
+   color: white;
+}
+
+h1{
+   background-position: center top;
+   border-bottom-style: solid;
+   border-bottom-width: 0px;
+  
+   font-size: 50px;
+ 
+   margin-bottom: 0;
+   margin-top: 11px;
+}
+
+h2{
+   font-family: sans-serif;
+   font-size: 60px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+
+ul{
+   list-style-type: none; 
+   
+   left: 0;
+   right: 0;
+   top: 71px;
+   margin-left: auto;
+   margin-right: auto;
+   margin: 0;
+   padding: 0;
+}
+
+li{
+   display: inline;
+}
+
+li a{
+   color: white;
+   
+   display: inline-block;
+
+   text-decoration: none;
+   text-align: center;
+   font-family: sans-serif;
+   text-transform: uppercase;
+
+   padding: 5px 16px;
+}
+
+p{
+   font-family: sans-serif;
+   font-size: 20px; 
+   
+   padding: 50px;
+   margin: 10px;
+}
+
+#header{
+   background: #000000;
+   
+   font-family: sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+  
+   left: 0;
+   right: 0;
+   top: 0;
+   margin-left: auto;
+   margin-right: auto;
+   position: fixed;
+
+   z-index: 10;
+}
+
+#navigation_bar{
+   background: #A0A0A0;
+
+   text-align: center;
+
+   position: fixed;
+   
+   z-index: 10;
+}
+
+#about{
+   background-image: linear-gradient(170deg, black, #303030);
+   
+   left: 0;
+   right: 0;
+   top: 446px;
+   height: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+
+   z-index: 1;
+}
+
+#shows{
+   background-image: linear-gradient(170deg, black, #303030);
+   
+   left: 0;
+   right: 0;
+   top: 1800px;
+   height: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1px;
+   position: absolute;
+
+   z-index: 1;
+}
+
+#footer{
+   background-image: linear-gradient(170deg, black, #303030);
+   
+   left: 0;
+   right: 0;
+   top: 3300px;
+   height: 200px;
+   bottom: 0;
+   
+   position: absolute;
+   
+   z-index: 1;
+}
