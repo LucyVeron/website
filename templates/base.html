@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
-      <script src="../static/jquery.js"></script>
-      {% block script %}
-         <!--script for BG image transitions on homepage--!>
-      {% endblock %}
       <title>New Age Americans</title>
-      <link rel="stylesheet" href="../static/style.css">
+      <link rel="stylesheet" href="../static/style.css"></link>
    </head>
-
    <body>
-   <div id="header">
-      <h1>New Age Americans</h1>
-   </div>
-   <ul id="navigation_bar">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-   </ul>
-   <div id="content">{% block content %}{% endblock %}</div> 
-   <div id="footer">
-      <p>
-         New Age Americans<br>
-         West Chicago, IL<br>
-      </p>
-   </div>
+      <div class="header">
+         <h1>New Age Americans</h1>
+         <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+         </ul>
+      </div><!--header--!>
+      {% block content %}
+      <!--individual page content goes here--!>
+      {% endblock %}
+      <div class="footer">
+         <p>
+            New Age Americans<br>
+            West Chicago, IL<br>
+         </p>
+         <div id="back-to-top">
+            {% if layout == "home" %}
+            <a href="/">Back to Top</a>
+            {% elif layout == "gallery" %}
+            <a href="/gallery">Back to Top</a>
+            {% endif %}
+         </div><!--back-to-top--!>
+      </div><!--footer--!>
    </body>
-</html>
+</html> 
