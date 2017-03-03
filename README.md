@@ -2,11 +2,13 @@
 Website for local music group
 
 # to do
-- [ ] Make band bio page
+- [ ] Finish band bio page
+- [ ] Make image thumbnails
 - [ ] Choose font stack
 - [ ] Ensure compatibility with multiple browsers/devices
-   - [ ] get HTML5Shiv
    - [ ] make site mobile-friendly
+   - [ ] get and implement HTML5Shiv (if necessary)
+
 
 # done
 - [x] Functionality to adjust background image sizes to fit browser window
