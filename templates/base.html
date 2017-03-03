@@ -11,6 +11,7 @@
          <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/bio">Bio</a></li>
          </ul>
       </div><!--header-->
       {% block content %}
@@ -26,6 +27,8 @@
             <a href="/">Back to Top</a>
             {% elif layout == "gallery" %}
             <a href="/gallery">Back to Top</a>
+            {% elif layout == "bio" %}
+            <a href="/bio">Back to Top</a>
             {% endif %}
          </div><!--back-to-top-->
       </div><!--footer-->
