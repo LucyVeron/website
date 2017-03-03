@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
-   {{image_names}}
-   {% for image_name in image_names %}
+   {{gallery_image_names}}
+   {% for gallery_image_name in gallery_image_names %}
       <div class="image-gallery">   
-         <a href="../static/images/gallery/{{image_name}}">
-            <img src="../static/images/gallery/{{image_name}}">
+         <a href="../static/images/gallery/{{gallery_image_name}}">
+            <img src="../static/images/gallery/{{gallery_image_name}}">
          </a>
       </div><!--image-gallery-->
    {% endfor %}
