@@ -91,12 +91,14 @@ body, html{
 }
 
 .image-gallery{
-   width: 200px;
-   margin: 30px auto;
+   width: 250px;
+   margin: 5px;
    border: 1px solid grey;
+   display: inline-block;
 }
 
-img{
+.image-gallery img{
    vertical-align: text-bottom;
    width: 100%;
+   height: auto%;
 }
