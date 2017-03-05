@@ -91,14 +91,14 @@ body, html{
 }
 
 .image-gallery{
-   width: 250px;
-   margin: 5px;
-   border: 1px solid grey;
-   display: inline-block;
+   display: flex;
+   flex-wrap: wrap;
+   object-fit: cover;
 }
 
-.image-gallery img{
+.image-gallery img {
+   flex-grow: 1;
+   height: 200px;
+   padding: 2px; 
    vertical-align: text-bottom;
-   width: 100%;
-   height: auto%;
 }
