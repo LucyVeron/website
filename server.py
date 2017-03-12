@@ -21,4 +21,4 @@ def get_bio():
    return render_template("bio.html", layout = "bio", bio_image_names=bio_image_names)
 
 if __name__ == '__index__':
-   app.run(debug=True)
+   app.run(host='0.0.0.0',port=5000,debug=True)
