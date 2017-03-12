@@ -1,11 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
-   {{bio_image_names}}
-   {% for bio_image_name in bio_image_names %}
-      <div class="bio-images">   
-         <a href="../static/images/bio/{{bio_image_name}}">
-            <img src="../static/images/bio/{{bio_image_name}}">
-         </a>
-      </div><!--bio-images-->
-   {% endfor %}
+   <div class="bio">   
+      {% for bio_image_name in bio_image_names %}
+         <img src="../static/images/bio/{{bio_image_name}}">
+      {% endfor %}
+   </div><!--bio-->
 {% endblock %}
