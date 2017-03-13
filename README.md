@@ -2,11 +2,11 @@
 Website for local music group
 
 # to do
-- [ ] Choose font stack
 - [ ] Dependencies script
 - [ ] Ensure compatibility with multiple viewports
    - [ ] look into responsive webpage practices/techniques
    - [ ] make site mobile-friendly
+- [ ] Point domain to finished site
 
 # done
 - [X] Functionality to adjust background image sizes to fit browser window
@@ -16,3 +16,4 @@ Website for local music group
 - [X] Fix navigation bar
 - [X] Make image thumbnails
 - [X] Finish band bio page
+- [X] Choose font stack
