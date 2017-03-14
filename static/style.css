@@ -12,13 +12,12 @@ body, html{
 
 .header h1{
    color: white;
-   font-size: 50px;
    margin: 0 auto 0 auto;
 }
 
 .header ul{
    list-style-type: none;
-   background: grey;
+   background: #303030;
    font-size: 20px;
    margin: 0;
    padding: 0;      
@@ -32,30 +31,12 @@ body, html{
    padding: 5%;
 }
 
-.fixed{
-   min-height: 100%;
-   background-size: cover;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-position: center center;
-}
-
-.fixed.mural-bg{background-image: url("images/mural.JPG");}
-
-.fixed.yellow-bg{background-image: url("images/yellowimg.png");}
-
-.fixed.red-bg{background-image: url("images/redimg.png");}
- 
-.scrolling{
-   background-image: linear-gradient(170deg, black, #303030);
+.container.scrolling{
+   background-image: linear-gradient(170deg, black, #303030); 
    display: flex;
    flex-direction: column;
 }
-
-.scrolling h2, p{
-   flex-grow: 1;
-}
-
+ 
 .footer{
    background-image: linear-gradient(170deg, black, #303030);
    padding: 20px;
@@ -80,21 +61,44 @@ body, html{
    margin: 0 auto 0 auto;
 }
 
-@media (max-width: 700px) {
-   .fixed {
-      background-attachment: scroll;
-      background-size: contain;
-      background-position: top center;
+@media (min-width: 795px){/*Big screens*/
+
+   h1{font-size: 50px;}
+   
+   img{display: none;}
+
+   .fixed{
+      min-height: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
    }
 
-   .scrolling{position: relative;}
+   .fixed.mural-bg{background-image: url("images/mural.JPG");}
+
+   .fixed.yellow-bg{background-image: url("images/yellowimg.png");}
+
+   .fixed.red-bg{background-image: url("images/redimg.png");}
+}
+
+@media (max-width: 795px){/*Little screens*/
+   
+   h1{font-size: 30px;}
+   
+   .container{
+      display: flex;
+      flex-direction: column;
+   }
+
+   .container img{max-width: 100%;}
 
    .header li a{
       display: block;
       padding: 0;
    }
+
    .header li a:hover{
-      background-color: #303030;
-      color:white;
+      background-color: #404040;
+      color: white;
    }
 }
