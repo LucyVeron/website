@@ -20,5 +20,5 @@ def get_bio():
    bio_image_names = os.listdir('./static/images/bio')
    return render_template("bio.html", layout = "bio", bio_image_names=bio_image_names)
 
-if __name__ == '__index__':
+if __name__ == '__main__':
    app.run(host='0.0.0.0',port=5000,debug=True)
