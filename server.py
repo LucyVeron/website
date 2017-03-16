@@ -1,10 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+import os, sys
 
-import os
+sys.path.insert(0, '/home/majortom6/public_html/cgi-bin/myenv/lib/python2.6/site-packages')
 
 from flask import Flask, render_template
 app = Flask(__name__)
 app.config.from_object(__name__)
+
 
 @app.route('/')
 def index():
