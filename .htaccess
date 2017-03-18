@@ -1,0 +1,5 @@
+AddHandler cgi-script .cgi .pl .plx .ppl .perl .py
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /home/majortom6/public_html/cgi-bin/newserver.cgi/$1 [L]
