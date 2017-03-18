@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+   <section class="image-gallery">   
+      {% for gallery_image_name in gallery_image_names %}
+         <a href="../static/images/gallery/{{gallery_image_name}}">
+         <img src="../static/images/thumbnails/{{gallery_image_name}}">
+         </a>
+      {% endfor %}
+   </section><!--image-gallery-->
+{% endblock %}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>New Age Americans</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../static/style.css"></link>
+      <script href="../static/scrolltop.js"></script> 
+  </head>
+   <body>
+      <div class="header">
+         <h1>New Age Americans</h1>
+         <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/bio">Bio</a></li>
+         </ul>
+      </div><!--header-->
+      {% block content %}
+      <!--individual page content goes here-->
+      {% endblock %}
+      <div class="footer">
+         <p>
+            New Age Americans<br>
+            West Chicago, IL<br>
+         </p>
+         <div id="back-to-top">
+            {% if layout == "home" %}
+            <a href="/">Back to Top</a>
+            {% elif layout == "gallery" %}
+            <a href="/gallery">Back to Top</a>
+            {% elif layout == "bio" %}
+            <a href="/bio">Back to Top</a>
+            {% endif %}
+         </div><!--back-to-top-->
+      </div><!--footer-->
+   </body>
+</html> 
