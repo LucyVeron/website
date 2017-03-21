@@ -3,6 +3,10 @@ Website for local music group
 
 # to do
 - [ ] Dependencies script
+- [ ] Add more bio information
+- [ ] More gallery pictures 
+- [ ] Facebook and Twitter links
+- [ ] Add previous tour dates
 
 # done
 - [X] Functionality to adjust background image sizes to fit browser window
