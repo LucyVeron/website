@@ -7,21 +7,30 @@
       <script href="../static/scrolltop.js"></script> 
   </head>
    <body>
-      <div class="header">
-         <h1>New Age Americans</h1>
-         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/bio">Bio</a></li>
-         </ul>
+      <h1>New Age Americans</h1>
+      <div class="header" id="myHeader">
+            <a href="javascript:void(0);" class="icon" onclick="nicemenu()">&#9776;</a>
+            <a href="/">Home</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/bio">Bio</a>
       </div><!--header-->
+      <script>
+         function nicemenu(){
+            var x = document.getElementById("myHeader")
+            if (x.className === "header"){
+               x.className += " responsive";
+            }else{
+               x.className = "header";
+            }   
+         }
+      </script> 
       {% block content %}
       <!--individual page content goes here-->
       {% endblock %}
       <div class="footer">
          <p>
             New Age Americans<br>
-            West Chicago, IL<br>
+            Chicago, IL<br>
          </p>
          <div id="back-to-top">
             {% if layout == "home" %}
