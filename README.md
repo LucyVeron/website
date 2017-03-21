@@ -6,7 +6,6 @@ Website for local music group
 - [ ] Add more bio information
 - [ ] More gallery pictures 
 - [ ] Facebook and Twitter links
-- [ ] Add previous tour dates
 
 # done
 - [X] Functionality to adjust background image sizes to fit browser window
@@ -23,6 +22,7 @@ Website for local music group
 - [X] Point domain to finished site
    - [X] Configure Apache and Flask with CGI
    - [X] Move project to Godaddy server
+- [X] Add previous tour dates
 
 # dependencies
 sudo apt-get install python-pip
