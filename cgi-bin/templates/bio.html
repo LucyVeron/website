@@ -1,8 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-   <div class="bio">   
-      {% for bio_image_name in bio_image_names %}
-         <img src="../static/images/bio/{{bio_image_name}}">
-      {% endfor %}
+   <div class="bio">
+   <table>   
+      <tr>
+         <td><img src="../static/images/bio/axel.jpg"></td>
+         <td><p>Axel Moreen plays piano and guitar for New Age Americans.</p></td>
+      </tr>      
+      <tr>
+         <td><img src="../static/images/bio/jake.jpg"></td>
+         <td><p>Jake Smith is 16 years old and lives in West Chicago, IL. Jake is the bass player and vocalist for New Age Americans. He is a junior at St. Francis high school in Wheaton, IL. Jake plays basketball, football and baseball for St. Francis and travel baseball. Jake loves to fish when he gets some down time. His favorite band is Cage The Elephant.
+</p></td>
+      </tr>      
+      <tr>
+         <td><img src="../static/images/bio/kieran.jpg"></td>
+         <td><p>Kieran Schoaf is 15 years old and lives in Bloomingdale, IL. He plays drums for New Age Americans. Kieran is a sophomore at St. Francis high school in Wheaton, IL. He plays high school volleyball, and his hobbies are eating food and playing video games.Kieran's favorite drummer is The Rev from Avenged Sevenfold which is also his favorite band. He is also the drummer to Written in Stone.
+</p></td>
+      </tr>      
+      <tr>
+         <td><img src="../static/images/bio/tyler.jpg"></td>
+         <td><p>Tyler Hodgett is 16 years old and lives in West Chicago, IL. He New Age Americans' rhythym guitarist and vocalist. Tyler is a senior at St. Francis high school in Wheaton, IL. His hobbies are playing video games, reading, and politics. At St. Francis, he is involved with the music ensemble, math team and plays baseball. His favorite band is Green Day.
+</p></td>
+      </tr>      
+   </table>
    </div><!--bio-->
 {% endblock %}
