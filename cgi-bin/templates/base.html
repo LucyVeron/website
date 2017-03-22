@@ -7,20 +7,26 @@
       <script href="../static/scrolltop.js"></script> 
   </head>
    <body>
+      <div class="social-media">
+         <a id="fb" href="https://web.facebook.com/newageamericans/?ref=py_c&_rdr">
+            <img src="../static/images/icons/facebook.jpg"></a>
+         <a id="tw" href="https://twitter.com/NAA_band">
+            <img src="../static/images/icons/twitter.jpg"></a>
+      </div><!--social-media-->
       <h1>New Age Americans</h1>
-      <div class="header" id="myHeader">
+      <div class="nav" id="myNav">
             <a href="javascript:void(0);" class="icon" onclick="nicemenu()">&#9776;</a>
             <a href="/">Home</a>
             <a href="/gallery">Gallery</a>
             <a href="/bio">Bio</a>
-      </div><!--header-->
+      </div><!--nav-->
       <script>
          function nicemenu(){
-            var x = document.getElementById("myHeader")
-            if (x.className === "header"){
-               x.className += " responsive";
+            var x = document.getElementById("myNav")
+            if (x.className === "nav"){
+               x.className += " open-nav";
             }else{
-               x.className = "header";
+               x.className = "nav";
             }   
          }
       </script> 
