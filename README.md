@@ -3,9 +3,6 @@ Website for local music group
 
 # to do
 - [ ] Dependencies script
-- [ ] Add more bio information
-- [ ] More gallery pictures 
-- [ ] Facebook and Twitter links
 
 # done
 - [X] Functionality to adjust background image sizes to fit browser window
@@ -23,6 +20,9 @@ Website for local music group
    - [X] Configure Apache and Flask with CGI
    - [X] Move project to Godaddy server
 - [X] Add previous tour dates
+- [X] Add more bio information
+- [X] More gallery pictures 
+- [X] Facebook and Twitter links
 
 # dependencies
 sudo apt-get install python-pip
