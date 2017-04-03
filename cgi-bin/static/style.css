@@ -51,15 +51,15 @@ body, html{
 }
 
 .image-gallery{
-   display: flex;
-   flex-wrap: wrap;
-   object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
 }
 
 .image-gallery img {
-   flex-grow: 1;
-   height: 200px;
-   padding: 2px; 
+    flex-grow: 1;
+    height: 200px;
+    padding-left: 5px;
 }
 
 .axel, .jake, .kieran, .tyler { 
@@ -70,19 +70,19 @@ body, html{
 }
 
 .axel, .kieran {
-    background: #934e41;
-box-shadow: inset 0px 0px 51px 3px #6E362B;
--webkit-box-shadow: inset 0px 0px 51px 3px #6E362B;
--moz-box-shadow: inset 0px 0px 51px 3px #6E362B;
--o-box-shadow: inset 0px 0px 51px 3px #6E362B;
+    background: #60271c;
+    box-shadow: inset 0px 0px 56px -3px #2E130E;
+    -webkit-box-shadow: inset 0px 0px 56px -3px #2E130E;
+    -moz-box-shadow: inset 0px 0px 56px -3px #2E130E;
+    -o-box-shadow: inset 0px 0px 56px -3px #2E130E;
 }
 
 .jake, .tyler {
-    background: #416993;
-box-shadow: inset 0px 0px 51px 15px #253F5C;
--webkit-box-shadow: inset 0px 0px 51px 15px #253F5C;
--moz-box-shadow: inset 0px 0px 51px 15px #253F5C;
--o-box-shadow: inset 0px 0px 51px 15px #253F5C;
+    background: #193e66;
+    box-shadow: inset 0px 0px 56px -16px #0E2033;
+    -webkit-box-shadow: inset 0px 0px 56px -16px #0E2033;
+    -moz-box-shadow: inset 0px 0px 56px -16px #0E2033;
+    -o-box-shadow: inset 0px 0px 56px -16px #0E2033;
 }
 
 .axel img, .jake img, .kieran img, .tyler img{
