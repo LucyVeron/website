@@ -16,7 +16,6 @@ body, html{
 .logo{
     display: block;
     position: relative;
-    height: 120px;
     margin: 0 auto 0 auto;
     text-align: center;
 }
@@ -100,56 +99,56 @@ body, html{
 
 @media screen and (min-width: 795px){/*Big screens*/
 
-   h1{font-size: 50px;}
-   
-   .nav{
-      display: block;
-      text-align: center;
+    .logo {height: 140px;}
+
+    .nav{
+        display: block;
+        text-align: center;
    }
    
-   .container img{display: none;}
+    .container img{display: none;}
 
-   .fixed{
-      min-height: 100%;
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-   }
+    .fixed{
+        min-height: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
 
-   .fixed.bg-1{background-image: url("images/mural.JPG");}
+    .fixed.bg-1{background-image: url("images/mural.JPG");}
 
-   .fixed.bg-2{background-image: url("images/yellowimg.png");}
+    .fixed.bg-2{background-image: url("images/yellowimg.png");}
 
-   .fixed.bg-3{background-image: url("images/graphic.JPG");}
+    .fixed.bg-3{background-image: url("images/graphic.JPG");}
 }
 
 @media screen and (max-width: 795px){/*Little screens*/
    
-   h1{font-size: 30px;}
+    .logo {height: 80px;}
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img{max-width: 100%;}
+
+    .nav {
+        background-color: black;
+        position: absolute;
+        z-index: 1; 
+        width: 100%;
+    }
+
+    .nav a{display: none;}
+
+    .nav a.icon{
+        display: block;
+        text-align: center;
+    }
    
-   .container{
-      display: flex;
-      flex-direction: column;
-   }
-
-   .container img{max-width: 100%;}
-
-   .nav {
-      background-color: black;
-      position: absolute;
-      z-index: 1; 
-      width: 100%;
-   }
-
-   .nav a{display: none;}
-
-   .nav a.icon{
-      display: block;
-      text-align: center;
-   }
-   
-   .nav.open-nav a{
-      display: block;
-      text-align: center;
-   }
+    .nav.open-nav a{
+        display: block;
+        text-align: center;
+    }
 }
