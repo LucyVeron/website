@@ -9,14 +9,16 @@ body, html{
 
 .social-media img{
    border: none;
-   width: 40px;
-   height: 40px;
+   width: 30px;
+   height: 30px;
 }
 
-h1 {
-   margin: 0 auto 0 auto;
-   text-align: center;
-   text-transform: uppercase;
+.logo{
+    display: block;
+    position: relative;
+    height: 120px;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 .nav{text-transform: uppercase;}
@@ -60,28 +62,40 @@ h1 {
    padding: 2px; 
 }
 
-.axel, .jake, .kieran, .tyler {
-    display: flex;
+.axel, .jake, .kieran, .tyler { 
     float: left;
-    background: white;
     margin: 2% 2% 2% 2%;
     padding: 0 2% 0 0;
-    color: rgb(50, 50, 50);
-    font-family: Courier New, Courier, Lucida Typewriter;
     text-decoration: none;
-    box-shadow: inset -2px -2px 87px 13px #757575;
-    -webkit-box-shadow: inset -2px -2px 87px 13px #757575;
-    -moz-box-shadow: inset -2px -2px 87px 13px #757575;
-    -o-box-shadow: inset -2px -2px 87px 13px #757575;
+}
+
+.axel, .kieran {
+    background: #934e41;
+box-shadow: inset 0px 0px 51px 3px #6E362B;
+-webkit-box-shadow: inset 0px 0px 51px 3px #6E362B;
+-moz-box-shadow: inset 0px 0px 51px 3px #6E362B;
+-o-box-shadow: inset 0px 0px 51px 3px #6E362B;
+}
+
+.jake, .tyler {
+    background: #416993;
+box-shadow: inset 0px 0px 51px 15px #253F5C;
+-webkit-box-shadow: inset 0px 0px 51px 15px #253F5C;
+-moz-box-shadow: inset 0px 0px 51px 15px #253F5C;
+-o-box-shadow: inset 0px 0px 51px 15px #253F5C;
 }
 
 .axel img, .jake img, .kieran img, .tyler img{
+    width: 150px;
+    height: 100%;
     float: left;
     padding: 0 2% 2% 2%;
 }
 
 .axel p, .jake p, .kieran p, .tyler p{
-    text-align: right;
+    display: block;
+    text-align: center;
+    font-size: 22px;
 }
 
 @media screen and (min-width: 795px){/*Big screens*/
@@ -106,7 +120,7 @@ h1 {
 
    .fixed.bg-2{background-image: url("images/yellowimg.png");}
 
-   .fixed.bg-3{background-image: url("images/logo.JPG");}
+   .fixed.bg-3{background-image: url("images/graphic.JPG");}
 }
 
 @media screen and (max-width: 795px){/*Little screens*/
