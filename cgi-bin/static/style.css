@@ -41,7 +41,20 @@ body, html{
 }
 
 .container.scrolling.shows ul{
-   list-style-type: none;
+    list-style-type: none;
+}
+
+.container.scrolling.shows ul li {
+    border-bottom: 1px solid #333;
+}
+
+.container.scrolling.shows ul li em{
+    color: #BBB;
+}
+
+.container.scrolling.shows ul li b{
+    font-size: 20px;
+    
 }
 
 .footer{
