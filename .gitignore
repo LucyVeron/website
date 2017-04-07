@@ -1,3 +1,4 @@
 cgi-bin/__pycache__
 cgi-bin/myenv
 cgi-bin/static/images/misc images
+cgi-bin/server.pyc
