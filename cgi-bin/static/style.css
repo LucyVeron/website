@@ -74,14 +74,14 @@ body, html{
     padding-left: 5px;
 }
 
-.axel, .jake, .kieran, .tyler { 
+.jake, .kieran, .tyler { 
     float: left;
     margin: 2% 2% 2% 2%;
     padding: 0 2% 0 0;
     text-decoration: none;
 }
 
-.axel, .kieran {
+.kieran {
     background: #60271c;
     box-shadow: inset 0px 0px 56px -3px #2E130E;
     -webkit-box-shadow: inset 0px 0px 56px -3px #2E130E;
@@ -97,14 +97,14 @@ body, html{
     -o-box-shadow: inset 0px 0px 56px -16px #0E2033;
 }
 
-.axel img, .jake img, .kieran img, .tyler img{
+.jake img, .kieran img, .tyler img{
     width: 150px;
     height: 100%;
     float: left;
     padding: 0 2% 2% 2%;
 }
 
-.axel p, .jake p, .kieran p, .tyler p{
+.jake p, .kieran p, .tyler p{
     display: block;
     text-align: center;
     font-size: 22px;
