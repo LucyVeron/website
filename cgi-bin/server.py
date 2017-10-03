@@ -16,9 +16,10 @@ def about():
    return render_template('about.html', layout = "about")
 
 @app.route('/gallery')
-def get_gallery():
+def get_gallery_content():
    gallery_image_names = os.listdir('./static/images/gallery')
-   return render_template("gallery.html", layout = "gallery", gallery_image_names=gallery_image_names)
+   gallery_video_names = os.listdir('./static/videos')
+   return render_template("gallery.html", layout = "gallery", gallery_image_names=gallery_image_names, gallery_video_names=gallery_video_names)
 
 @app.route('/bio')
 def get_bio():
