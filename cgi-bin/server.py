@@ -26,5 +26,10 @@ def get_bio():
    bio_image_names = os.listdir('./static/images/bio')
    return render_template("bio.html", layout = "bio", bio_image_names=bio_image_names)
 
+@app.route('/merch')
+def get_merch():
+   merch_image_names = os.listdir('./static/images/merch')
+   return render_template("merch.html", layout = "merch", merch_image_names=merch_image_names)
+
 if __name__ == '__main__':
    app.run(host='0.0.0.0',port=5000,debug=True)
