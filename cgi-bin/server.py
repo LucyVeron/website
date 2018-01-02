@@ -18,8 +18,7 @@ def about():
 @app.route('/gallery')
 def get_gallery_content():
    gallery_image_names = os.listdir('./static/images/gallery')
-   gallery_video_names = os.listdir('./static/videos')
-   return render_template("gallery.html", layout = "gallery", gallery_image_names=gallery_image_names, gallery_video_names=gallery_video_names)
+   return render_template("gallery.html", layout = "gallery", gallery_image_names=gallery_image_names)
 
 @app.route('/bio')
 def get_bio():

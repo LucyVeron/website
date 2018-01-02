@@ -5,6 +5,10 @@ body, html{
    height: 100%;
 }
 
+a {
+   outline: none;
+}
+
 .social-media{text-align: center;}
 
 .social-media img{
@@ -109,6 +113,40 @@ body, html{
     text-align: center;
     font-size: 22px;
 }
+
+.item {
+    margin: 2% 2% 2% 2%;
+    padding: 0 2% 0 0;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.item img {
+    width: 250px;
+    height: 100%;
+}
+
+.item p {
+    font-size: 22px;
+}
+
+.poster {
+    border: 1px solid grey;
+}
+
+.merchgrid {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    width: 33%;
+    text-align: center;
+    padding: 8px;
+}
+
 
 @media screen and (min-width: 795px){/*Big screens*/
 
