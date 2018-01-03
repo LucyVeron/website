@@ -1,25 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-<table class="merchgrid">
-    <tr>
-        <td>
-            <div class="item">
-                <p><img src="../static/images/merch/guitarpick.PNG">
-                <h2>Guitar Pick</h2>$2.00</p>
-            </div><!--item-->
-        </td>
-        <td>
-            <div class="item">
-                <p><img class="poster" src="../static/images/merch/poster.PNG">
-                <h2>Poster</h2>$5.00</p>
-            </div><!--item-->
-        </td>
-        <td>
-            <div class="item">
-                <p><img src="../static/images/merch/shirtfront.PNG">
-                <h2>T-Shirt</h2>$10.00</p>
-            </div><!--item-->
-        </td>
-    </tr>
-</table>
+<div class="item">
+    <p><img src="../static/images/merch/guitarpick.PNG">
+    <h2>Guitar Pick</h2>$2.00</p>
+</div><!--item-->
+<div class="item">
+    <p><img class="poster" src="../static/images/merch/poster.PNG">
+    <h2>Poster</h2>$5.00</p>
+</div><!--item-->
+<div class="item">
+    <p><img src="../static/images/merch/shirtfront.PNG"
+	onMouseOver="MouseRollover(this)" 
+	onMouseOut="MouseOut(this)"/>
+    <h2>T-Shirt</h2>$10.00</p>
+</div><!--item-->
 {% endblock %}

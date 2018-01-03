@@ -64,6 +64,7 @@ a {
 .footer{
    background-image: black;
    padding: 20px;
+   clear: both;
 }
 
 .image-gallery{
@@ -78,14 +79,14 @@ a {
     padding-left: 5px;
 }
 
-.jake, .kieran, .tyler { 
+.jake, .kieran, .tyler, .liam { 
     float: left;
     margin: 2% 2% 2% 2%;
     padding: 0 2% 0 0;
     text-decoration: none;
 }
 
-.kieran {
+.kieran, .liam {
     background: #60271c;
     box-shadow: inset 0px 0px 56px -3px #2E130E;
     -webkit-box-shadow: inset 0px 0px 56px -3px #2E130E;
@@ -101,25 +102,25 @@ a {
     -o-box-shadow: inset 0px 0px 56px -16px #0E2033;
 }
 
-.jake img, .kieran img, .tyler img{
+.jake img, .kieran img, .tyler img, .liam img{
     width: 150px;
     height: 100%;
     float: left;
     padding: 0 2% 2% 2%;
 }
 
-.jake p, .kieran p, .tyler p{
+.jake p, .kieran p, .tyler p, .liam img{
     display: block;
     text-align: center;
     font-size: 22px;
 }
 
 .item {
+    float: left;
     margin: 2% 2% 2% 2%;
     padding: 0 2% 0 0;
     text-decoration: none;
     text-align: center;
-
 }
 
 .item img {

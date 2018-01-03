@@ -33,7 +33,14 @@
                x.className += " open-nav";
             }else{
                x.className = "nav";
-            }   
+            } 
+         }
+
+         function MouseRollover(MyImage) {
+              MyImage.src = "../static/images/merch/shirtback.PNG";
+         }
+         function MouseOut(MyImage) {
+             MyImage.src = "../static/images/merch/shirtfront.PNG";
          }
       </script> 
       {% block content %}
